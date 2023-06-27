@@ -1,15 +1,16 @@
 import java.util.Random
+// TO RUN THE FILE CLICK THE GREEN ▶️ BUTTON ON THE RIGHT TOP OF THE SCREEN
 
 // Functions -------------
     // Function with type String
     fun getGreeting(name: String, role: String): String {
-        // when - behaves like a "switch" in Java
+        // when - behaves like a "switch" in C++
         when(role) {
             // if person is employed print (do) this
-            "employee" -> return "Hey $name";
+            "employee" -> return "Hey $name"
 
             // if person is a manager print (do) this
-            "manager" -> return "Welcome Manager!";
+            "manager" -> return "Welcome Manager!"
 
             // if person is ....
             "boss" -> return "Welcome boss!"
@@ -17,7 +18,7 @@ import java.util.Random
         return "Unknown user"
     }
 
-    // Default Function like void
+    // Default Function like void in C++
     fun sayGoodbye() {
         println("Goodbye")
     }
@@ -28,27 +29,27 @@ import java.util.Random
         }
     }
 
-// fun - stands for function similar to void in Java
+// fun - stands for function similar to void in C++
 fun main(args: Array<String>) { // default main initialization
 
 
     // Variables -------------
         // val - behaves like a "const" (can only be assigned once)
-        val name: String = "Malik";
+        val name: String = "Malik"
         val age: Int = 2;
-        val gender: Char = 'M';
-        val role: String = "employee";
+        val gender: Char = 'M'
+        val role: String = "employee"
 
-        var whichLoop: Int = (1..4).random();
+        val whichLoop: Int = (1..4).random()
 
         // var - behaves like a regular variable (can be reassigned)
-        var name2:String;
+        var name2:String
 
 
         // '?' allows to initialize a null variable
-        val birth: String? = null;
-        var address: String? = null;
-        address = "123 Airforce St";
+        val birth: String? = null
+        var address: String? = null
+        address = "123 Airforce St"
 
 
 
@@ -113,11 +114,10 @@ fun main(args: Array<String>) { // default main initialization
 
 
 
-
-    val greeting = getGreeting(name, role);
-
+    // FC
+    val greeting = getGreeting(name, role)
     println(greeting)
-    sayGoodbye();
+    sayGoodbye()
 
 
 
