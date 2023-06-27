@@ -19,7 +19,10 @@ Kotlin is a modern programming language that runs on the Java Virtual Machine (J
 
 ## Getting Started
 
-To get started with Kotlin, you need to have the Kotlin compiler installed on your machine. You can download and install the compiler from the official Kotlin website (https://kotlinlang.org/). Additionally, Kotlin can be used with various Integrated Development Environments (IDEs) such as IntelliJ IDEA, Android Studio, and Eclipse.
+To start coding in Kotlin, you need to set up your development environment. Here are the steps:
+
+  1. Install the latest version of the Java Development Kit ([JDK](https://www.oracle.com/java/technologies/downloads/)) if you haven't already.
+  2. Install an Integrated Development Environment (IDE) of [IntelliJ IDEA](https://www.jetbrains.com/idea/), which includes built-in Kotlin support.
 
 **Once Installed & IntelliJ has been launched:**
   1. Click `Get from VCS`
